@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+</head>
+<body>
+    <h1>Explore the World - Travel Guide</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Top Travel Destinations</h2>
+    <ol type="I">
+        <li>Paris, France</li>
+        <li>Bali, Indonesia</li>
+        <li>Kyoto, Japan</li>
+        <li>New York City, USA</li>
+        <li>Rome, Italy</li>
+    </ol>
+    
+    <!-- External Image -->
+    <h2>Travel Inspiration</h2>
+    <img src="https://images.pexels.com/photos/210415/pexels-photo-210415.jpeg" alt="Beautiful travel destination" width="600">
+    
+    <!-- Contact Table -->
+    <h2>Travel Contacts</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Traveler</td>
+            <td>Kenya</td>
+            <td>+254723456789</td>
+            <td>john.traveler@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lisa Wanderlust</td>
+            <td>uganda</td>
+            <td>+628123456789</td>
+            <td>lisa.wanderlust@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Mark Oyot</td>
+            <td> Japan</td>
+            <td>+817012345678</td>
+            <td>mark.explorer@outlook.com</td>
+        </tr>
+        <tr>
+            <td>Sophia Adventure</td>
+            <td>New York, USA</td>
+            <td>+12123456789</td>
+            <td>sophia.adventure@gmail.com</td>
+        </tr>
+        <tr>
+            <td>David Voyager</td>
+            <td>Rome, Italy</td>
+            <td>+390612345678</td>
+            <td>david.voyager@gmail.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Travel Registration</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label>Preferred Travel Style:</label>
+        <input type="radio" id="adventure" name="style" value="adventure" required>
+        <label for="adventure">Adventure</label>
+        <input type="radio" id="luxury" name="style" value="luxury" required>
+        <label for="luxury">Luxury</label>
+        <br><br>
+
+        <label for="destination">Favorite Destination:</label>
+        <select id="destination" name="destination" required>
+            <option value="">Select a destination</option>
+            <option value="Paris">Paris</option>
+            <option value="Bali">Bali</option>
+            <option value="Kyoto">Kyoto</option>
+            <option value="New York">New York</option>
+            <option value="Rome">Rome</option>
+        </select>
+        <br><br>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="beaches" name="interests" value="Beaches">
+        <label for="beaches">Beaches</label>
+        <input type="checkbox" id="culture" name="interests" value="Culture">
+        <label for="culture">Culture</label>
+        <input type="checkbox" id="hiking" name="interests" value="Hiking">
+        <label for="hiking">Hiking</label>
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    
+    <!-- Multimedia Elements -->
+    <h2>Travel Multimedia</h2>
+    
+    <!-- Audio Element -->
+    <h3>Relaxing Travel Music</h3>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Video Element -->
+    <h3>Travel Destination Video</h3>
+    <video width="600" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
